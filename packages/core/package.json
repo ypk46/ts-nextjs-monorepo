@@ -1,0 +1,24 @@
+{
+  "name": "@app/core",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./auth": "./src/auth/index.ts",
+    "./config": "./src/config/index.ts",
+    "./errors": "./src/errors.ts",
+    "./notes": "./src/notes/index.ts",
+    "./queue": "./src/queue/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pg-boss": "^12.35.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "typescript": "~6.0.3"
+  }
+}

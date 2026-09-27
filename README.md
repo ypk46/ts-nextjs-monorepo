@@ -1,4 +1,4 @@
-# ts-nextjs-monorepo
+# TS Next.js Monorepo
 
 A starter for projects shaped like **web + API + worker + core + DB**: Next.js with a Hono API,
 a pg-boss background worker, a framework-free domain package and Drizzle on Postgres. Lint,
